@@ -1,19 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Nav = () => (
     <ul className="nav main_nav">
         <li className="nav-item">
-            <Link className="nav-link" to ="/">Home</Link>
+            <NavLink exact activeStyle={{ fontWeight: 'bold', color: 'salmon' }} className="nav-link" to ="/">Home</NavLink>
         </li>
         <li className="nav-item">
-            <Link className="nav-link" to = "/car-list">Car List</Link>
+            <NavLink activeStyle={{ fontWeight: 'bold', color: 'salmon' }} className="nav-link" to = "/projects/car-list">Car List</NavLink>
         </li>
         <li className="nav-item">
-            <Link className="nav-link" to="/todo-list">Todo List</Link>
+            <NavLink activeStyle={{ fontWeight: 'bold', color: 'salmon' }} className="nav-link" to="/projects/todo-list">Todo List</NavLink>
         </li>
         <li className="nav-item">
-            <Link className="nav-link" to="/weather-app">Weather App</Link>
+            <NavLink activeStyle={{ fontWeight: 'bold', color: 'salmon' }} className="nav-link" to="/projects/weather-app">Weather App</NavLink>
         </li>
     </ul>
 );

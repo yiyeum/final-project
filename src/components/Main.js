@@ -11,9 +11,9 @@ const Main = () => (
     <div>
         <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/car-list" component={Car} />
-            <Route path="/todo-list" component={Todo} />
-            <Route path="/weather-app" component={Weather} />
+            <Route path="/projects/car-list" component={Car} />
+            <Route path="/projects/todo-list" component={Todo} />
+            <Route path="/projects/weather-app" component={Weather} />
             <Route component={NotFound} />
         </Switch>
     </div>
