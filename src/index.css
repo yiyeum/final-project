@@ -25,6 +25,20 @@ body {
   margin: 0 16px 10px;
 }
 
+.car-list li{
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.car-list ol{
+  text-align: center; 
+}
+
+.car-brand{
+  letter-spacing: 1px;
+  color: #969292;
+}
 
 
 
