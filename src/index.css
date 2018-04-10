@@ -40,5 +40,39 @@ body {
   color: #969292;
 }
 
+.todo-wrapper ul{
+  display: inline-block;
+  padding: 0;
+  text-align: left;
+}
 
+li.todo-list{
+  list-style: none;
+}
+
+.todo-wrapper ul li {
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+
+.fa-sun{
+  color: orange;
+}
+
+.add-btn{
+  background-color: #E47F5A;
+  color: #fff;
+}
+
+.add-input{
+  border: none;
+  border-bottom: 2px solid #E47F5A;
+  border-radius: 0!important;
+}
+
+input:focus{
+  outline: none !important;
+  border-color: #C76A48 !important;
+  box-shadow: none !important;
+}
 
