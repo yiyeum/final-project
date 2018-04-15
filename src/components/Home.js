@@ -7,7 +7,7 @@ const Home = () => (
         </h3>
         <ul>
             <li>
-                Country List - It displays countries 
+                Car List - It displays cars using map function from the car array 
             </li>
             <li>
                 Todo List - You can update / delete the todo list
